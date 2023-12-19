@@ -25,6 +25,9 @@ Download the installer as explained on [TextTest.org](http://www.texttest.org/ge
 
 Windows may warn you that it doesn't trust this installer and be reluctant to download it. If you prefer not to continue with this, an alternative is to run TextTest via Python. First install Python then use the convenience script 'start_texttest_from_python.bat'.
 
+#### Possible Initial Failure of Tests
+If the latest version of the ThirtyDays/stdout.gr has been saved with Unix formatting then the test will fail to fix this convert the file format to Windows format.  This can be done in notepad++ Edit->EOL Conversion -> Windows (CR LF)
+
 ## Interpreting Test Results
 
 You should see output like this if the test passes:
